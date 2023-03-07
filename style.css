@@ -4,7 +4,6 @@ body {
   height: 100%;
   display: flex;
   justify-content: center;
-  
 }
 
 #msg-container {
@@ -14,25 +13,26 @@ body {
   flex-direction: column;
   background-color: white;
   align-items: center;
+  justify-content: center;
   border-radius: 8%;
   margin-top: 20%;
 }
 
 #messageGras {
-    font-weight: 700;
-    font-family: 'Outfit', sans-serif;
-    padding-left: 10%;
-    padding-right: 5%;
-    text-align: center;
+  font-weight: 700;
+  font-family: "Outfit", sans-serif;
+  padding-left: 10%;
+  padding-right: 5%;
+  text-align: center;
 }
 
-#paragraphe{
-    font-weight: 400;
-    font-family: 'Outfit', sans-serif;
-    padding-left: 10%;
-    padding-right: 5%;
-    padding-bottom: 10%;
-    text-align: center;
+#paragraphe {
+  font-weight: 400;
+  font-family: "Outfit", sans-serif;
+  padding-left: 10%;
+  padding-right: 5%;
+  padding-bottom: 10%;
+  text-align: center;
 }
 
 .qrcode {
